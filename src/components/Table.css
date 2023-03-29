@@ -18,3 +18,8 @@ th {
   padding: 8px;
   border-radius: 9px;
 }
+.details {
+  color: black !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
