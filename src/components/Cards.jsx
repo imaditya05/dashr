@@ -2,6 +2,7 @@ import React from 'react';
 import './Cards.css';
 import { cardsData } from './Data/Data.js';
 import Card from './Card';
+import { v4 as uuidv4 } from 'uuid';
 
 const Cards = () => {
   return (
@@ -10,7 +11,7 @@ const Cards = () => {
         return (
           <div className="parent-container">
             <Card
-              key={index}
+              key={uuidv4()}
               id={index}
               title={card.title}
               color={card.color}
