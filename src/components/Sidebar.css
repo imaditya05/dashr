@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -11,4 +10,44 @@
 
 .logo {
   font-family: 'Comfortaa', cursive;
+  font-size: large;
+  font-weight: 600;
+}
+/* The Pages in Sidebar */
+.pages {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.page-items {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+}
+
+.page-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.page-items:hover {
+  cursor: pointer;
+}
+
+.active:hover {
+  background-color: var(--mid-blue);
+  margin-left: 0;
+}
+
+.active:hover::before {
+  content: '';
+  width: 8px;
+  height: 100%;
+  background-color: black;
 }
