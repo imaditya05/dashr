@@ -10,34 +10,36 @@ import {
 
 const Sidebar = () => {
   return (
-    <div class="sidebar">
-      {/* Logo */}
-      <div class="logo">dashr</div>
-      {/* Pages */}
-      <div class="pages">
-        <div class="page-items active">
-          <Home strokeWidth={2} size={20} />
-          <span class="page-name">DashBoard</span>
-        </div>
+    <div className="outer-container">
+      <div className="sidebar">
+        {/* Logo */}
+        <h1 className="logo">dashr</h1>
+        {/* Pages */}
+        <div className="pages">
+          <div className="page-items active">
+            <Home strokeWidth={2} size={20} />
+            <span className="page-name">DashBoard</span>
+          </div>
 
-        <div class="page-items active">
-          <Cart strokeWidth={2} size={20} />
-          <span class="page-name">Cart</span>
-        </div>
+          <div className="page-items active">
+            <Cart strokeWidth={2} size={20} />
+            <span className="page-name">Cart</span>
+          </div>
 
-        <div class="page-items active">
-          <PeopleMultiple strokeWidth={2} size={20} />
-          <span class="page-name">Customers</span>
-        </div>
+          <div className="page-items active">
+            <PeopleMultiple strokeWidth={2} size={20} />
+            <span className="page-name">Customers</span>
+          </div>
 
-        <div class="page-items active">
-          <ShippingBoxV1 strokeWidth={2} size={20} />
-          <span class="page-name">Products</span>
-        </div>
+          <div className="page-items active">
+            <ShippingBoxV1 strokeWidth={2} size={20} />
+            <span className="page-name">Products</span>
+          </div>
 
-        <div class="page-items active">
-          <StatisticUp strokeWidth={2} size={20} />
-          <span class="page-name">Analytics</span>
+          <div className="page-items active">
+            <StatisticUp strokeWidth={2} size={20} />
+            <span className="page-name">Analytics</span>
+          </div>
         </div>
       </div>
     </div>

@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
+
+.outer-container {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .sidebar {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
   padding-top: 4rem;
   text-align: center;
   font-weight: 700;
+  transition: all ease 500ms;
+  background-color: black;
+  border-radius: 2rem;
+  font-size: small;
 }
 
 .logo {
-  font-family: 'Comfortaa', cursive;
-  font-size: large;
-  font-weight: 600;
+  font-family: 'Comfortaa', 'cursive';
+  font-size: 28px;
+  color: whitesmoke;
 }
 /* The Pages in Sidebar */
 .pages {
@@ -19,6 +31,7 @@
   flex-direction: column;
   gap: 2rem;
   margin-top: 2rem;
+  color: whitesmoke;
 }
 
 .page-items {
@@ -41,13 +54,14 @@
 }
 
 .active:hover {
-  background-color: var(--mid-blue);
+  background-color: rgb(54, 54, 54);
   margin-left: 0;
+  transition: all ease 0.2s;
 }
 
 .active:hover::before {
   content: '';
   width: 8px;
   height: 100%;
-  background-color: black;
+  background-color: whitesmoke;
 }

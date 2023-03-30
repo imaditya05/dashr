@@ -9,8 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@iconscout/react-unicons": "^2.0.2",
     "akar-icons": "^1.9.25",
+    "framer-motion": "^10.11.2",
     "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
