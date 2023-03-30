@@ -54,3 +54,25 @@ export const cardsData = [
     ],
   },
 ];
+
+// Recent Update Card Data
+export const UpdatesData = [
+  {
+    img: 'https://randomuser.me/api/portraits/women/17.jpg',
+    name: 'Mary Shelton',
+    notification: 'has ordered Apple smart watch 2500mh battery.',
+    time: '25 seconds ago',
+  },
+  {
+    img: 'https://randomuser.me/api/portraits/men/44.jpg',
+    name: 'Vincent Bradley',
+    notification: 'has received Samsung gadget for charging battery.',
+    time: '30 minutes ago',
+  },
+  {
+    img: 'https://randomuser.me/api/portraits/men/18.jpg',
+    name: 'Derrick Barnett',
+    notification: 'has ordered Apple smart watch, samsung Gear 2500mh battery.',
+    time: '2 hours ago',
+  },
+];
