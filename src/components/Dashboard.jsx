@@ -14,7 +14,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <div className="greeting">
-        <p>{greeting}, Claire!</p>
+        <p style={{ marginTop: '1rem' }}>{greeting}, Claire!</p>
       </div>
       <Cards />
       <Table />
