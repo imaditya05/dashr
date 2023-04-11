@@ -41,7 +41,7 @@ export default function BasicTable() {
   };
   return (
     <div className="Table">
-      <h3>Recent Orders</h3>
+      <h3 style={{ marginBottom: '1rem' }}>Recent Orders</h3>
       <TableContainer
         component={Paper}
         style={{

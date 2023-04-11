@@ -6,11 +6,13 @@ const Aside = () => {
   return (
     <div className="Aside">
       <div>
-        <h3>Updates</h3>
+        <h3 style={{ marginBottom: '1rem' }}>Updates</h3>
         <Updates />
       </div>
       <div>
-        <h3>Customer Review</h3>
+        <h3 style={{ marginBottom: '1rem', marginTop: '1rem' }}>
+          Customer Review
+        </h3>
         <CustomerReview />
       </div>
     </div>

@@ -23,3 +23,9 @@ th {
   text-decoration: underline;
   cursor: pointer;
 }
+@media screen and (max-width: 1200px) {
+  .Table {
+    width: 140%;
+    margin-top: 3rem;
+  }
+}

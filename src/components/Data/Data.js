@@ -1,6 +1,6 @@
 import {
-  UilUsdSquare,
-  UilMoneyWithdrawal,
+  UilDollarSign,
+  UilChartLine,
   UilClipboardAlt,
 } from '@iconscout/react-unicons';
 
@@ -13,7 +13,7 @@ export const cardsData = [
     },
     barValue: 70,
     value: '25,970',
-    png: UilUsdSquare,
+    png: UilDollarSign,
     series: [
       {
         name: 'Sales',
@@ -29,7 +29,7 @@ export const cardsData = [
     },
     barValue: 80,
     value: '14,270',
-    png: UilMoneyWithdrawal,
+    png: UilChartLine,
     series: [
       {
         name: 'Revenue',

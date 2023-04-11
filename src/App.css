@@ -22,12 +22,21 @@
 
 .container {
   display: grid;
-  height: 85%;
-  width: 90%;
+  height: 90%;
+  width: 95%;
   background-color: var(--light-blue);
   border-radius: 2rem;
   overflow: hidden;
   grid-template-columns: 11rem auto 20rem;
   padding: 1rem;
   gap: 1rem;
+}
+
+/* Media queries for resposiveness */
+
+@media screen and (max-width: 1300px) {
+  .container {
+    grid-template-columns: 10% 60% auto;
+    overflow-y: scroll;
+  }
 }

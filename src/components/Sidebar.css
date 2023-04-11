@@ -65,3 +65,23 @@
   height: 100%;
   background-color: whitesmoke;
 }
+
+@media screen and (max-width: 1300px) {
+  .logo {
+    font-size: 18px;
+  }
+  .page-items > span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .page-items {
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 910px) {
+  .page-items {
+    margin-left: 1.2rem;
+  }
+}

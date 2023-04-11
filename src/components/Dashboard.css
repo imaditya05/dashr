@@ -8,3 +8,10 @@
   font-size: 2rem;
   font-weight: 900;
 }
+
+@media screen and (max-width: 1300px) {
+  .dashboard {
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+}
