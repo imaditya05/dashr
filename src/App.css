@@ -40,3 +40,20 @@
     overflow-y: scroll;
   }
 }
+
+@media screen and (max-width: 830px) {
+  .container {
+    grid-template-columns: 10% 55% auto;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+}

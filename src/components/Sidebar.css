@@ -75,13 +75,20 @@
   }
 }
 
+@media screen and (max-width: 910px) {
+  .page-items {
+    margin-left: 1.2rem;
+  }
+}
+
 @media screen and (max-width: 830px) {
   .page-items {
     margin-left: 1rem;
   }
 }
-@media screen and (max-width: 910px) {
-  .page-items {
-    margin-left: 1.2rem;
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
   }
 }
